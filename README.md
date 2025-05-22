@@ -26,7 +26,7 @@ This is an example of a search you could do in the AdventureWorks2022 database. 
 ## Input Example
 ![Inputs Example](Preview%20Example%20Input.png)
 
-## Results Window
+## Results Window (Query Time: 00:00:01)
 ![Results Example](Preview%20Example%20Results.png)
 
 Each match will show you:
