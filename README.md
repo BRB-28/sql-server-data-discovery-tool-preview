@@ -1,4 +1,4 @@
-# SQL Data Discovery Tool
+# SQL Server Data Discovery Tool Preview
 
 Hello!
 
