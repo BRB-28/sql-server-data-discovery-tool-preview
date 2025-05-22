@@ -50,7 +50,7 @@ It includes:
 This is just for anyone who finds the tool useful, would like some extra features and would like to support me.
 
 ## LINK TO FULL VERSION HERE:
-https://brb2828.gumroad.com/
+https://brb2828.gumroad.com/l/ckdmy?wanted=true
 
 ## Feedback Welcome
 This is the first tool I’ve ever released publicly. If you use it and have feedback, ideas, or just want to say it helped, I’d genuinely love to hear it. I want this to keep evolving and help others save time too.
