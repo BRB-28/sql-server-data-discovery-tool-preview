@@ -6,6 +6,8 @@ I’ve seen a lot of posts and questions about how to search for actual data acr
 
 I have dealt with many databases that were large and undocumented, so finding out where anything was kept was a pain. So I started writing this script and have been trying to improve it ever since. I wanted to share it with others who were going through similar issues.
 
+Keep in mind: this tool is best suited for situations where you have many tables and columns and don’t know where a specific value is stored. Querying large, unindexed tables will still carry performance risks, so apply filters wisely!
+
 ## Why I Built It
 
 From what I’ve seen, there are scripts out there that use dynamic SQL and cursors to run similarly, but the main issues I see with those are:
@@ -13,8 +15,6 @@ From what I’ve seen, there are scripts out there that use dynamic SQL and curs
 - Slow — They check every column everywhere, even where it doesn’t make sense
 - Resource-heavy — They query full tables, which tanks performance
 - Limited — They don’t support multi-database search or custom filters
-
-Keep in mind, this tool is best used for situations where you have many tables and columns and don't know where a certain value is stored. Querying large unindexed tables will still come with performance issues, so use filters wisely!
 
 So I made the following adjustments:
 
