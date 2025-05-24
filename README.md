@@ -17,7 +17,7 @@ From what I’ve seen, there are scripts out there that use dynamic SQL and curs
 So I made the following adjustments:
 
 - There are data type, schema, table and column filters so that when you define the type of data you are searching for, it will filter out any unneeded tables and columns so it doesn’t waste time checking for data where it wouldn’t be. Significantly cuts down the time it takes to search large databases.
-- Set at pulling 5 rows per table max, that way you can see a preview of the data in each table without querying for the full thing. You should be able to run this on a large database without it causing any performance issues
+- While the script includes optimizations like filtering and row limits, scanning large, unindexed tables still carries performance risk. Use wisely in production environments
 - I tried making it customizable and able to work on any server. It is also able to search multiple databases on the same server to save time when trying to find where your data is
 
 Here is a screenshot of what you would need to enter. All variables are at the top of the script and you would just need to fill those out and then execute.
