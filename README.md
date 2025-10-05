@@ -39,20 +39,5 @@ Each match will show you:
 
 This script was built on SQL Server 2019 and tested across 6+ servers and 30+ databases.
 
-## Full Version
-
-There is also a full version of this script available for anyone who finds this script useful.
-It includes:
-- Setting the row limit for max rows pulled per table
-- Additional Criteria to add to your search (i.e. DepartmentID = 10)
-- Additional Date Criteria to add (i.e. ChangedDate = '2025-05-20')
-- Search Exact Column Names
-- Search Exact Table Names
-
-This is just for anyone who finds the tool useful, would like some extra features and would like to support me.
-
-## LINK TO FULL VERSION HERE:
-https://brb2828.gumroad.com/
-
 ## Feedback Welcome
 This is the first tool I’ve ever released publicly. If you use it and have feedback, ideas, or just want to say it helped, I’d genuinely love to hear it. I want this to keep evolving and help others save time too.
